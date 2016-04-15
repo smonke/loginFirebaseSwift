@@ -8,4 +8,4 @@
 
 import Foundation
 
-let BASE_URL = "https://loginexampleswift.firebaseio.com/"
+let BASE_URL = "urlToFirebase"
