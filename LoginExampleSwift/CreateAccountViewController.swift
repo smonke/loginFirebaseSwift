@@ -15,6 +15,8 @@ class CreateAccountViewController: UIKit.UIViewController {
 
         if username != "" && email != "" && password != "" {
 
+            DataService.dataService.BASE_REF.createUser(email, password: password)
+
         }
 
     }
