@@ -23,10 +23,10 @@ class DataService {
         return _USER_REF
     }
 
-    var CURRENT_USER_REF : {
+    var CURRENT_USER_REF : Firebase{
         let userID = NSUserDefaults.standardUserDefaults().valueForKey("uid") as! String
 
-        let currentUser = Firebase(url: "\(BASE_REF)").childByAppendingPath("users").childByAppendingPatch(userID)
+        let currentUser = Firebase(url: "\(BASE_REF)").childByAppendingPath("users").childByAppendingPath(userID)
 
         return currentUser!
     }
