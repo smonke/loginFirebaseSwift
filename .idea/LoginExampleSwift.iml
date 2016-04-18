@@ -51,6 +51,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FQuery.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/libFirebaseStatic.a" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FAuthData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/CreateAccountViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/DataService.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/ViewController.swift" isTestSource="false" />

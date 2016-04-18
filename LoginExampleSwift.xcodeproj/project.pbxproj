@@ -18,6 +18,7 @@
 		93021DCF1CBEA884008A369E /* LoginExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021DCE1CBEA884008A369E /* LoginExampleSwiftUITests.swift */; };
 		9308C49F1CC1268600580524 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308C49E1CC1268600580524 /* Constants.swift */; };
 		9368D0821CC1280900D094AE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368D0811CC1280900D094AE /* DataService.swift */; };
+		B68A721CA8C3FA2CD5B14CE9 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A733A25D2A8648F3FA888 /* CreateAccountViewController.swift */; };
 		CE4A6D10BCFA38D1EB3ED60E /* Pods_LoginExampleSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F63E27C4EDC89AD66FF710 /* Pods_LoginExampleSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		9308C49E1CC1268600580524 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		9368D0811CC1280900D094AE /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		ABD37D178F7528586D4F9FC5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68A733A25D2A8648F3FA888 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		C59E95000563E6FD47F79A6A /* Pods-LoginExampleSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginExampleSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Pods-LoginExampleSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 				93021DB71CBEA883008A369E /* LaunchScreen.storyboard */,
 				93021DBA1CBEA883008A369E /* Info.plist */,
 				9368D0811CC1280900D094AE /* DataService.swift */,
+				B68A733A25D2A8648F3FA888 /* CreateAccountViewController.swift */,
 			);
 			path = LoginExampleSwift;
 			sourceTree = "<group>";
@@ -318,7 +321,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "\uD83D\uDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +336,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +351,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +366,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "\uD83D\uDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +381,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "\uD83D\uDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +396,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "\uD83D\uDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +411,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +426,7 @@
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "\uD83D\uDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +445,7 @@
 				93021DAF1CBEA883008A369E /* AppDelegate.swift in Sources */,
 				9308C49F1CC1268600580524 /* Constants.swift in Sources */,
 				9368D0821CC1280900D094AE /* DataService.swift in Sources */,
+				B68A721CA8C3FA2CD5B14CE9 /* CreateAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
