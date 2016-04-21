@@ -2,6 +2,20 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Constants.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/CreateAccountViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/DataService.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/LoginViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Base.lproj/Main.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftUITests/LoginExampleSwiftUITests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftTests/LoginExampleSwiftTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Pods-LoginExampleSwiftUITests.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Pods-LoginExampleSwiftUITests-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Pods-LoginExampleSwiftUITests-acknowledgements.plist" isTestSource="false" />
@@ -12,16 +26,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Pods-LoginExampleSwiftUITests-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftUITests/Pods-LoginExampleSwiftUITests.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwift/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftTests/Pods-LoginExampleSwiftTests-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftTests/Pods-LoginExampleSwiftTests.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-LoginExampleSwiftTests/Pods-LoginExampleSwiftTests-umbrella.h" isTestSource="false" />
@@ -39,32 +53,18 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Firebase/Firebase-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Firebase/Firebase-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FirebaseServerValue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FTransactionResult.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/Empty.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FMutableData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FAuthType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/libFirebaseStatic.a" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FAuthType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FQuery.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/Firebase.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FDataSnapshot.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FirebaseApp.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FEventType.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FQuery.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/libFirebaseStatic.a" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FTransactionResult.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FMutableData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/Empty.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Firebase/FAuthData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/CreateAccountViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/DataService.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwift/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftUITests/LoginExampleSwiftUITests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftTests/LoginExampleSwiftTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LoginExampleSwiftTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Constants.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

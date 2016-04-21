@@ -10,13 +10,14 @@
 		4E8146F27512BE1826E06C36 /* Pods_LoginExampleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2633A7C60E10203607F5F632 /* Pods_LoginExampleSwift.framework */; };
 		833481DE54BB73AB6E05B8D3 /* Pods_LoginExampleSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E0411C23D0D0C296918CE /* Pods_LoginExampleSwiftTests.framework */; };
 		93021DAF1CBEA883008A369E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021DAE1CBEA883008A369E /* AppDelegate.swift */; };
-		93021DB11CBEA883008A369E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021DB01CBEA883008A369E /* ViewController.swift */; };
+		93021DB11CBEA883008A369E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021DB01CBEA883008A369E /* LoginViewController.swift */; };
 		93021DB41CBEA883008A369E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93021DB21CBEA883008A369E /* Main.storyboard */; };
 		93021DB61CBEA883008A369E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93021DB51CBEA883008A369E /* Assets.xcassets */; };
 		93021DB91CBEA883008A369E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93021DB71CBEA883008A369E /* LaunchScreen.storyboard */; };
 		93021DC41CBEA884008A369E /* LoginExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021DC31CBEA884008A369E /* LoginExampleSwiftTests.swift */; };
 		93021DCF1CBEA884008A369E /* LoginExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93021DCE1CBEA884008A369E /* LoginExampleSwiftUITests.swift */; };
 		9308C49F1CC1268600580524 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308C49E1CC1268600580524 /* Constants.swift */; };
+		935DEB541CC8AB7200849B1C /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935DEB531CC8AB7200849B1C /* LoggedInViewController.swift */; };
 		9368D0821CC1280900D094AE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9368D0811CC1280900D094AE /* DataService.swift */; };
 		B68A721CA8C3FA2CD5B14CE9 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68A733A25D2A8648F3FA888 /* CreateAccountViewController.swift */; };
 		CE4A6D10BCFA38D1EB3ED60E /* Pods_LoginExampleSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F63E27C4EDC89AD66FF710 /* Pods_LoginExampleSwiftUITests.framework */; };
@@ -50,7 +51,7 @@
 		8EC68DE388A54A3F0AD10ECD /* Pods-LoginExampleSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginExampleSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginExampleSwiftTests/Pods-LoginExampleSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		93021DAB1CBEA883008A369E /* LoginExampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginExampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93021DAE1CBEA883008A369E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93021DB01CBEA883008A369E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93021DB01CBEA883008A369E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		93021DB31CBEA883008A369E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93021DB51CBEA883008A369E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93021DB81CBEA883008A369E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		93021DCE1CBEA884008A369E /* LoginExampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExampleSwiftUITests.swift; sourceTree = "<group>"; };
 		93021DD01CBEA884008A369E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9308C49E1CC1268600580524 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
+		935DEB531CC8AB7200849B1C /* LoggedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		9368D0811CC1280900D094AE /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		ABD37D178F7528586D4F9FC5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68A733A25D2A8648F3FA888 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -147,13 +149,14 @@
 			children = (
 				93021DAE1CBEA883008A369E /* AppDelegate.swift */,
 				9308C49E1CC1268600580524 /* Constants.swift */,
-				93021DB01CBEA883008A369E /* ViewController.swift */,
+				93021DB01CBEA883008A369E /* LoginViewController.swift */,
 				93021DB21CBEA883008A369E /* Main.storyboard */,
 				93021DB51CBEA883008A369E /* Assets.xcassets */,
 				93021DB71CBEA883008A369E /* LaunchScreen.storyboard */,
 				93021DBA1CBEA883008A369E /* Info.plist */,
 				9368D0811CC1280900D094AE /* DataService.swift */,
 				B68A733A25D2A8648F3FA888 /* CreateAccountViewController.swift */,
+				935DEB531CC8AB7200849B1C /* LoggedInViewController.swift */,
 			);
 			path = LoginExampleSwift;
 			sourceTree = "<group>";
@@ -183,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93021DD31CBEA884008A369E /* Build configuration list for PBXNativeTarget "LoginExampleSwift" */;
 			buildPhases = (
-				F2E1D5A00B2F8C19FBE9A2EF /* 📦 Check Pods Manifest.lock */,
+				F2E1D5A00B2F8C19FBE9A2EF /* uD83DuDCE6 Check Pods Manifest.lock */,
 				93021DA71CBEA883008A369E /* Sources */,
 				93021DA81CBEA883008A369E /* Frameworks */,
 				93021DA91CBEA883008A369E /* Resources */,
-				E0C495AA8E0FD975993A1AC9 /* 📦 Embed Pods Frameworks */,
-				C3E64978BD0869FEC724C2DF /* 📦 Copy Pods Resources */,
+				E0C495AA8E0FD975993A1AC9 /* uD83DuDCE6 Embed Pods Frameworks */,
+				C3E64978BD0869FEC724C2DF /* uD83DuDCE6 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,12 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93021DD61CBEA884008A369E /* Build configuration list for PBXNativeTarget "LoginExampleSwiftTests" */;
 			buildPhases = (
-				6B0BCAF22796868F06FD5E31 /* 📦 Check Pods Manifest.lock */,
+				6B0BCAF22796868F06FD5E31 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				93021DBB1CBEA884008A369E /* Sources */,
 				93021DBC1CBEA884008A369E /* Frameworks */,
 				93021DBD1CBEA884008A369E /* Resources */,
-				30CCA89D2E337403B3CA532B /* 📦 Embed Pods Frameworks */,
-				B72333F4EA9B918E1E2C6E78 /* 📦 Copy Pods Resources */,
+				30CCA89D2E337403B3CA532B /* uD83DuDCE6 Embed Pods Frameworks */,
+				B72333F4EA9B918E1E2C6E78 /* uD83DuDCE6 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,11 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93021DD91CBEA884008A369E /* Build configuration list for PBXNativeTarget "LoginExampleSwiftUITests" */;
 			buildPhases = (
-				A4F4220A5DF76BF3C6128F3E /* 📦 Check Pods Manifest.lock */,
+				A4F4220A5DF76BF3C6128F3E /* uD83DuDCE6 Check Pods Manifest.lock */,
 				93021DC61CBEA884008A369E /* Sources */,
 				93021DC71CBEA884008A369E /* Frameworks */,
 				93021DC81CBEA884008A369E /* Resources */,
-				F5E68615AB70169AE9747D18 /* 📦 Copy Pods Resources */,
+				F5E68615AB70169AE9747D18 /* uD83DuDCE6 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,14 +317,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		30CCA89D2E337403B3CA532B /* 📦 Embed Pods Frameworks */ = {
+		30CCA89D2E337403B3CA532B /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "uD83DuDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,14 +332,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExampleSwiftTests/Pods-LoginExampleSwiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B0BCAF22796868F06FD5E31 /* 📦 Check Pods Manifest.lock */ = {
+		6B0BCAF22796868F06FD5E31 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,14 +347,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A4F4220A5DF76BF3C6128F3E /* 📦 Check Pods Manifest.lock */ = {
+		A4F4220A5DF76BF3C6128F3E /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,14 +362,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B72333F4EA9B918E1E2C6E78 /* 📦 Copy Pods Resources */ = {
+		B72333F4EA9B918E1E2C6E78 /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,14 +377,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExampleSwiftTests/Pods-LoginExampleSwiftTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3E64978BD0869FEC724C2DF /* 📦 Copy Pods Resources */ = {
+		C3E64978BD0869FEC724C2DF /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,14 +392,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0C495AA8E0FD975993A1AC9 /* 📦 Embed Pods Frameworks */ = {
+		E0C495AA8E0FD975993A1AC9 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "uD83DuDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,14 +407,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginExampleSwift/Pods-LoginExampleSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F2E1D5A00B2F8C19FBE9A2EF /* 📦 Check Pods Manifest.lock */ = {
+		F2E1D5A00B2F8C19FBE9A2EF /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,14 +422,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F5E68615AB70169AE9747D18 /* 📦 Copy Pods Resources */ = {
+		F5E68615AB70169AE9747D18 /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +444,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93021DB11CBEA883008A369E /* ViewController.swift in Sources */,
+				93021DB11CBEA883008A369E /* LoginViewController.swift in Sources */,
 				93021DAF1CBEA883008A369E /* AppDelegate.swift in Sources */,
 				9308C49F1CC1268600580524 /* Constants.swift in Sources */,
+				935DEB541CC8AB7200849B1C /* LoggedInViewController.swift in Sources */,
 				9368D0821CC1280900D094AE /* DataService.swift in Sources */,
 				B68A721CA8C3FA2CD5B14CE9 /* CreateAccountViewController.swift in Sources */,
 			);

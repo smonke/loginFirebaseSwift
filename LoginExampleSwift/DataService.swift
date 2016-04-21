@@ -1,10 +1,4 @@
-//
-//  DataService.swift
-//  LoginExampleSwift
-//
-//  Created by Sonja Moenkemeyer on 15.04.16.
-//  Copyright © 2016 smonke. All rights reserved.
-//
+
 
 import Foundation
 import Firebase
@@ -29,6 +23,13 @@ class DataService {
         let currentUser = Firebase(url: "\(BASE_REF)").childByAppendingPath("users").childByAppendingPath(userID)
 
         return currentUser!
+    }
+    
+    func createNewAccount(uid: String, user: Dictionary<String, String>) {
+        
+        // A User is born.
+        
+        USER_REF.childByAppendingPath(uid).setValue(user)
     }
 
 

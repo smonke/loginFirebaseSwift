@@ -1,10 +1,4 @@
-//
-//  LoginExampleSwiftTests.swift
-//  LoginExampleSwiftTests
-//
-//  Created by Sonja Moenkemeyer on 13.04.16.
-//  Copyright © 2016 smonke. All rights reserved.
-//
+
 
 import XCTest
 @testable import LoginExampleSwift
